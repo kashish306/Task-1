@@ -1,0 +1,703 @@
+/*part 1*/
+#homepage{
+    background-image: url('/homeimg.jpg');
+    background-size: 100% 800px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.title{
+    color: white;
+    margin-right: auto;
+    width: auto;
+    height: 60px;
+    padding-top: 33px;
+    padding-left: 330px;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.itemlist{
+    list-style-type: none;
+    width: auto;
+    height: 50px;
+    padding-top: 50px;
+    padding-right: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.item{
+    display: inline;
+}
+.item a{
+    text-decoration: none;
+    margin: 12px;
+    color: white;
+}
+.item a:hover{
+    color: rgb(252, 238, 119);
+    font-size: 16px;
+}
+
+
+
+
+.heading{
+    padding-top: 100px;
+    padding-left: 330px;
+    color: rgb(255, 255, 255);
+    font-size: 2.1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+.headingpara{
+    padding-left: 330px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+.lmbtn{
+    padding-left: 330px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+.lmbtn button{
+    border: none;
+    background-color: rgb(42, 71, 238);
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+}
+.lmbtn button:hover{
+   background-color: rgb(255, 246, 119);
+   color: rgb(0, 0, 0);
+}
+
+/*Part 2*/
+.welcomepage{
+    background: rgb(255, 255, 255);
+    height: 800px;
+    width: 1550px;
+    justify-content: center;
+    align-items: center;
+}
+.welcome h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 40px;
+    font-size: 45px;
+    text-align: center;
+} 
+
+.umb{
+    display: flex;
+    justify-content: space-between;
+}
+.umbpara{
+    padding-top: 5px;
+    padding-left: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(74, 124, 218);
+    font-size: 23px;
+}
+.umbimg img{
+    padding-right: 400px;
+    width: 145x;
+    height: 170px;
+} 
+
+.sections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px; 
+}
+
+.card11{
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.card11 img{
+    width: 70px;
+    height: 75px;
+    font-weight: 900px;
+}
+
+.card11 h4{
+    color: violet;
+}
+.card11 h5,p{
+    color: rgb(175, 172, 172);
+}
+.card11 p{
+    font-size: 20px;
+}
+.secbtn{
+    margin-top: 20px;
+    padding-left: 15px;
+    font-family: fantasy;
+    font-style: bold;
+}
+.secbtn button{
+    border: none;
+    background-color:  rgb(42, 71, 238);
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+}
+.secbtn button:hover{
+   background-color: rgb(219, 219, 217);
+   color: black;
+}
+.hl{
+    margin-top: 100px;
+    margin-left: 390px;
+    border-bottom: 4px solid rgb(219, 219, 217);
+    border-radius: 2px;
+    width: 740px;
+}
+
+/* part 3 */
+.proj{
+    background: rgb(255, 255, 255);
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+.projtitle{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 15px;
+}
+
+.parts{
+    display: flex;
+    padding-top: 45px;
+}
+.part1 {
+    background: rgb(243, 243, 243);
+}
+.part1:hover{
+    background-color: rgb(225, 245, 47);
+    color: black;
+}
+.part1 img{
+    width:100% ;
+    height: 360px;
+    border-top: 2px solid rgb(241, 240, 236);
+    border-bottom: 2px solid rgb(241,240,236);
+    border-right: 2px solid rgb(241, 240, 236);
+    border-left: 2px solid rgb(241,240,236);
+
+
+}
+.part1 img:hover{
+    width:100% ;
+    height: 360px;
+    border: 2px solid rgb(225, 245, 47);
+}
+
+.partinfo{
+    padding-bottom: 50px;
+}
+.partinfo h1{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.partinfo p{
+    padding-left: 30px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.partinfo button{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(42, 71, 238);
+    border: none;
+    cursor: pointer;
+}
+.partinfo button:hover{
+    background-color: rgb(235, 163, 245);
+}
+.partinfo button a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+.partinfo button a:hover{
+    color: black;
+}
+
+/* part4 */
+#price{
+    background: rgb(255, 255, 255);
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+}
+.pricetitle{
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 50px;
+}
+.pricesections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    padding-top: 25px;
+    margin-left: 300px;
+    width: 900px;
+}
+.plan{
+    text-align: center;
+    width: 250px;
+}
+.plan h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px; 
+}
+.plan h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px; 
+    color: rgb(192, 190, 190);
+    padding-top: 0px;
+}
+.plan h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px; 
+}
+.plan button{
+    width: 120px;
+    height: 30px;
+    background-color:blue;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+.plan button:hover{
+    background-color: rgb(245, 255, 109);
+    color: rgb(0, 0, 0);
+}
+.line {
+    border-left: 3px solid rgb(219, 219, 217);
+    border-radius: 3px;
+    height: 300px;
+  }
+
+  /* part 5 */
+  .vidsection {
+    background: rgb(215, 171, 221);
+    height: 650px;
+    width: 1550px;
+    justify-content: center;
+    align-items: center;
+}
+
+.vidsection h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    color: white;
+}
+
+
+.vidslide {
+    margin-top: 40px;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 280px;
+}
+
+
+
+.vidslide ul {
+    position: absolute;
+    bottom: -130px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+   
+}
+
+.vidslide ul li {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.vidslide ul li video {
+    width: 700px;
+    transition: all 0.3s;
+
+}
+
+.vidslide ul li video:hover {
+    transform: scale(1.1);
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+/* part 6 */
+.team{
+    background: rgb(255, 255, 255);
+    height: 715px;
+    justify-content: center;
+    align-items: center;
+}
+.team h1{
+    padding-top: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+.line-1{
+    display: flex;
+    margin-top: 40px;
+    padding-left: 400px;
+    padding-right: 400px;
+    justify-content: space-between;
+}
+
+.linediv img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.linediv img:hover{
+    opacity: 30% ;
+}
+
+.linediv h2{
+    padding-top: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+.linediv p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(184, 184, 184);
+    font-size: 10px;
+}
+
+/* part 7 */
+
+.zippy_in_life{
+    background: rgb(207, 205, 205);
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+.zippy_life h1{
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.testimonial-image {
+    width: 50%;
+    border-radius: 2%;
+    margin: 20px;
+  }
+
+
+
+/* part 8 */
+#newsletter{
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/pexels-eli-zaturanski-821679.jpg');
+    background-repeat: no-repeat;
+    background-size: 1550px 350px;
+}
+#newsletter h1{
+    padding-top: 34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+}
+.form{
+    padding-top: 40px;
+    padding-left: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.form input{
+    width: 400px;
+    height: 40px;
+    border: none;
+}
+.form input::-webkit-input-placeholder {
+    font-size: 20px;
+    color: rgb(202, 202, 202);
+    line-height: 3;
+}
+.signupbtn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 18px;    
+    cursor: pointer;
+}
+.active, .signupbtn:hover{
+    width: 105px;
+    height: 45px;
+    background-color:  rgb(236, 211, 142);
+   color: black;
+}
+.logbtn{
+    display: flex;
+    padding-top: 50px; 
+   
+}
+
+.loginbtn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 18px;  
+    cursor: pointer;  
+   margin-left: 400px;
+   margin-right: 350px;
+}
+.active, .loginbtn:hover{
+    width: 105px;
+    height: 45px;
+    background-color: rgb(236, 211, 142);
+    color: black;
+}
+
+/* part 9 */
+
+#blog{
+    height: 660px;
+    width: 1550px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.blogpart{
+  margin-left: 250px;
+  margin-right: 280px;
+}
+
+.blogtitle{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+
+.card-body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-body h6{
+    color: gray;
+}
+
+.card-body button{
+    background-color: blue;
+    color: white;
+}
+
+.card-body button:hover{
+    background-color: rgb(255, 240, 106);
+    color: black;
+}
+
+
+/* part 10 */
+#contact{
+    height: 800px;
+    background-color: white;
+}
+.left{
+    display: flex;
+   
+}
+.map iframe{
+    width: 760px;
+    height: 100vh;
+}
+.right{
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 40px;
+    background-color: rgb(255, 240, 106);
+
+}
+.right h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+.right form{
+    padding-top: 30px;
+    
+}
+.right label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);    
+}
+.right input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 30px;
+    border: none;
+}
+#subject{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 100px;
+    border: none;
+}
+#message{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 100px;
+    border: none; 
+}
+.right button{
+    width: 400px;
+    height: 40px;
+    border: none;
+    background-color: blueviolet;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.right button:hover{
+    background-color: rgb(235, 67, 67);
+    color: black;
+}
+
+
+/* part 11*/
+#blog{
+    height: 660px;
+    width: 1550px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#footer{
+    height:250px;
+    margin-top: 40px;
+    
+}
+
+.blogpart{
+  margin-left: 250px;
+  margin-right: 280px;
+}
+
+.footcard{
+    border: none;
+    margin-left: 30px;
+}
+
+.card-body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-body h6{
+    color: rgb(0, 0, 0);
+}
+
+.footertitle{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.footerdate{
+    font-size: 15px;
+}
+.logos{
+    display: flex;
+    width: 200px;
+    height: 35px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 50px;
+    margin-left: 12px;
+}
+.logos2{
+    display: flex;
+    width: 200px;
+    height: 35px;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 50px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.footerpic{
+    width: 80%;
+    height: 25px;
+}
+.footerpic:hover{
+    width: 85%;
+    height: 30px;
+}
+
